@@ -1,0 +1,38 @@
+# ignore .root files
+*.root
+
+#ignore the file from the compilation
+*.d
+*.so
+*.pcm
+
+# ignore ALL files in ANY directory named temp
+# comment below to not implement
+temp/
+
+# ignore pdf files
+*.pdf
+
+# ignore images
+*.png
+*jpg
+*.jpeg
+
+# ignore vscode settings
+.vscode/
+
+# ignore compressed files
+*.tar
+*.gz
+*.tar.gz
+*.zip
+
+# ignore logs
+*.log
+
+# ignore cernbox sync files
+*.sync_journal.db
+*.sync_journal.db-wal
+
+# ignore dpl config file
+dpl-config.json
